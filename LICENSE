@@ -19,15 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-Scope of this license:
-
-This MIT license applies to the workbench shell code authored in this
-repository: dsh/, lib/, src/, test/, build.mjs, cordis.patch.yml, docs/,
-package.json and README.md.
-
-It does NOT apply to the site/ directory — the bundled copy of the
-open-source static knowledge-graph site xiaoyang111222/cn-math-taxonomy —
-which remains licensed under CC BY-NC 4.0 (non-commercial) by its original
-author. See site/LICENSE and the License section of README.md.
