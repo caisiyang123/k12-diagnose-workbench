@@ -1,0 +1,5 @@
+- insert:
+    - id: k12-diagnose-workbench
+      name: dsh-k12-diagnose-workbench
+      config:
+        root: !!js dshHomePath('k12-diagnose-workbench')
