@@ -38,6 +38,7 @@ pnpm pack           # 打包 .tgz
 
 ## 数据来源与许可
 
-- 知识图谱数据、题库与诊断引擎来自 [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)，按 **CC BY-NC 4.0** 授权：非商业使用，再分发须保留本署名与原作链接。本仓库整体同样以 CC BY-NC 4.0 分发（见 [LICENSE](LICENSE)）。
+- 工作台壳代码（`dsh/`、`lib/`、`src/`、`test/`、`build.mjs` 等）以 **MIT** 许可发布（见 [LICENSE](LICENSE)）。
+- 内嵌的 `site/` 目录（知识图谱数据、题库、页面与诊断引擎，来自 [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)）保留原作者的 **CC BY-NC 4.0** 许可（见 [site/LICENSE](site/LICENSE)）：非商业使用，再分发须保留署名与原作链接；因此**打包分发的安装包整体按 CC BY-NC 4.0 提供**，商用需原作者授权。
 - 图谱与题库为 AI 生成的初稿，未经教师审核；先修关系与诊断结果仅供学习参考。
 - Cytoscape、dagre、cytoscape-dagre、qrcode 依赖库保留各自 MIT 许可（见 `site/assets/vendor/`）。
